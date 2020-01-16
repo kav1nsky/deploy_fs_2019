@@ -126,6 +126,7 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media_files')
 
 MEDIA_URL = '/media/'
 
+STATIC_ROOT = os.path.join(BASE_DIR, 'static_files')
 # Cross-origins requests
 
 CORS_ALLOW_CREDENTIALS = True
