@@ -138,4 +138,4 @@ CORS_ORIGIN_WHITELIST = ['https://nikita-fullstack.herokuapp.com']
 
 CSRF_TRUSTED_ORIGINS = ['https://nikita-fullstack.herokuapp.com']
 
-SESSION_COOKIE_DOMAIN = '.herokuapp.com'
+SESSION_COOKIE_DOMAIN = 'nikita-fullstack.herokuapp.com'
