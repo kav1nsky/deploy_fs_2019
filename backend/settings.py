@@ -134,6 +134,6 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static_files')
 CORS_ALLOW_CREDENTIALS = True
 
 # change to app.example.com in production settings
-CORS_ORIGIN_WHITELIST = ['http://localhost:3000']
+CORS_ORIGIN_WHITELIST = ['https://nikita-fullstack.herokuapp.com']
 
-CSRF_TRUSTED_ORIGINS = ['http://localhost:3000']
+CSRF_TRUSTED_ORIGINS = ['https://nikita-fullstack.herokuapp.com']
