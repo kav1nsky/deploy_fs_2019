@@ -25,7 +25,9 @@ SECRET_KEY = 'v_r%oqy-k3h)x*zdql-^5pke@r6p7_uj(r^voqn2+q$ka6poj3'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'mipt-fullstack2019.herokuapp.com'
+]
 
 
 # Application definition
